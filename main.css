@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #b37842;
+    color: #fff;
+}
+
+header {
+    background: transparent;
+    color: #fff;
+    text-align: left;
+    padding: 32px 48px 0 48px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 120px;
+    height: auto;
+}
+
+.main-image {
+    width: 90vw;
+    max-width: 1100px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+    margin: 32px auto 16px auto;
+    display: block;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+section {
+    background: #232323;
+    border-radius: 18px;
+    margin: 24px auto;
+    padding: 32px;
+    max-width: 1100px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #d4a373;
+}
+/* Remove or comment out position: fixed; in your footer styles */
+footer {
+    background: #181512;
+    color: #f5e9da;
+    text-align: center;
+    padding: 18px 0;
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+}
