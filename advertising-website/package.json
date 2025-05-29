@@ -1,0 +1,21 @@
+{
+  "name": "advertising-website",
+  "version": "1.0.0",
+  "description": "A website for advertising purposes.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "keywords": [
+    "advertising",
+    "website",
+    "marketing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
